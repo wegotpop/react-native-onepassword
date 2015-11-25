@@ -5,6 +5,7 @@ React Native integration with the OnePassword extension.
 ## Install
 
 1. Install project as a dependency:
+
 		npm install --save react-native-onepassword
 
 2. Link library to Xcode project (see the [React documentation](http://facebook.github.io/react-native/docs/linking-libraries-ios.html#content)).
