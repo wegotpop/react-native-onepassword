@@ -4,7 +4,7 @@
   "main": "OnePassword.ios.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "node_modules/napa/bin/napa AgileBits/onepassword-app-extension"
+    "postinstall": "napa AgileBits/onepassword-app-extension"
   },
   "repository": {
     "type": "git",
