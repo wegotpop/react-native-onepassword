@@ -3,17 +3,17 @@
   "version": "1.0.0",
   "main": "OnePassword.ios.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node_modules/napa/bin/napa AgileBits/onepassword-app-extension"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/DriveWealth/react-native-onepassword"
   },
   "dependencies": {
-    "onepassword-app-extension": "git+https://github.com/AgileBits/onepassword-app-extension.git"
   },
   "devDependencies": {
-
+    "napa": "^2.0.2"
   },
   "peerDependencies": {
     "react-native": "^0.x"
