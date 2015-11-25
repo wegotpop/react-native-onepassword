@@ -5,6 +5,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DriveWealth/react-native-onepassword"
+  },
   "dependencies": {
     "onepassword-app-extension": "git+https://github.com/AgileBits/onepassword-app-extension.git"
   },
