@@ -1,0 +1,28 @@
+{
+  "name": "react-native-onepassword",
+  "version": "1.0.0",
+  "main": "OnePassword.ios.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "onepassword-app-extension": "git+https://github.com/AgileBits/onepassword-app-extension.git"
+  },
+  "devDependencies": {
+
+  },
+  "peerDependencies": {
+    "react-native": "^0.x"
+  },
+  "keywords": [
+    "react-native-component",
+    "react-component",
+    "react-native",
+    "ios",
+    "onepassword",
+    "1password",
+    "login"
+  ],
+  "license": "MIT",
+  "author": "John Shammas"
+}
