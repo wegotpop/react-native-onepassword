@@ -22,7 +22,7 @@ RCT_EXPORT_METHOD(isSupported: (RCTResponseSenderBlock)callback)
 RCT_EXPORT_METHOD(findLogin: (NSString *)url
                   callback: (RCTResponseSenderBlock)callback)
 {
-    UIViewController *controller = RCTKeyWindow().rootViewController;
+    UIViewController *controller = RCTPresentedViewController();
     
     dispatch_async(dispatch_get_main_queue(), ^{
         [[OnePasswordExtension sharedExtension] findLoginForURLString:url
